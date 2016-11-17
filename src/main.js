@@ -3,7 +3,6 @@ import store from './store'
 import VueRouter from 'vue-router'
 import App from './App'
 
-Vue.use(VueMaterial)
 Vue.use(VueRouter)
 
 const router = new VueRouter({})
