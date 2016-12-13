@@ -13,5 +13,5 @@
     components: {}
   }
 </script>
-<style scoped>
+<style lang='scss' rel='stylesheet/scss' scoped>
 </style>
