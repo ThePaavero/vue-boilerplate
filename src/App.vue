@@ -14,13 +14,8 @@
       ExampleComponent
     },
     mounted() {
-      this.$router.push('/')
     },
-    methods: {
-      goHome() {
-        this.$router.push('/')
-      }
-    }
+    methods: {}
   }
 
 </script>
@@ -35,18 +30,28 @@
     font-size: 2vw;
     padding: 5vh 5vw;
 
-    @media screen and (max-width: 800px) {
-      font-size: 16px;
-    }
+  @media screen and (max-width: 800px) {
+    font-size:
+
+  16px
+
+  ;
+  }
+
   }
 
   h1 {
     font-size: 4vw;
     margin-bottom: 4vh;
 
-    @media screen and (max-width: 800px) {
-      font-size: 30px;
-    }
+  @media screen and (max-width: 800px) {
+    font-size:
+
+  30px
+
+  ;
+  }
+
   }
 
   .fade-enter-active, .fade-leave-active {
