@@ -20,7 +20,7 @@
 
 </script>
 
-<style lang='scss' rel='stylesheet/scss'>
+<style lang='scss' type='text/scss'>
   #app {
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -30,28 +30,18 @@
     font-size: 2vw;
     padding: 5vh 5vw;
 
-  @media screen and (max-width: 800px) {
-    font-size:
-
-  16px
-
-  ;
-  }
-
+    @media screen and (max-width: 800px) {
+      font-size: 16px;
+    }
   }
 
   h1 {
     font-size: 4vw;
     margin-bottom: 4vh;
 
-  @media screen and (max-width: 800px) {
-    font-size:
-
-  30px
-
-  ;
-  }
-
+    @media screen and (max-width: 800px) {
+      font-size: 30px;
+    }
   }
 
   .fade-enter-active, .fade-leave-active {
